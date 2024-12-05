@@ -22,7 +22,7 @@ axios.get(endpoint)
   });
 
 function showCards(card) {
-  const { title, url, pin } = card;
+  const { title, url } = card;
   userCard.innerHTML += `<div class="single-user-card col-4 mx-3 my-3">
             <img src="assets_day1/img/pin.svg" alt="pin" class="pin">
             <img src="${url}" alt=".." class="my-3">
