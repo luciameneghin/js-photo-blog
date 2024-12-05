@@ -23,7 +23,7 @@ function photo() {
       const photoArray = response.data.map(photo => {
         return { title: photo.title, url: photo.url };  // Estraggo title e url di tutte le img(destrutturazione)
       });
-      console.log(photoArray);
+
       showAllCards(photoArray);
     })
     .catch(e => {
@@ -63,7 +63,16 @@ function printError(errorMessage) {
 // giorno 2
 const overlayImgBtn = document.querySelector('.overlay');
 const button = document.querySelector('.btn');
+// const singleUserCard = document.querySelectorAll('.single-user-card')
+console.log(showCards);
+
 
 button.addEventListener('click', () => {
   overlayImgBtn.classList.add('d-none')
+})
+
+userCard.addEventListener('click', () => {
+  userCard.classList.add('d-none')
+  overlayImgBtn.classList.remove('d-none')
+  userCard.classList.remove('d-none')
 })

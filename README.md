@@ -1,6 +1,6 @@
 Photo blog
 ===
-## Consegna
+## Consegna (giorno 1)
 **Milestone 1**
 Sfruttando gli screen e gli asset in allegato riproduciamo la grafica proposta in maniera statica: utilizzando soltanto HTML e CSS e riproducendo una singola fotografia (usiamo una qualunque immagine a piacimento)
 **Milestone 2**
@@ -28,11 +28,11 @@ Ricordarsi il .catch (inserisci messaggio di errore in pagina)
 Rivedere il responsive della milestone 1
 
 
-## Consegna
+## Consegna (giorno 2)
 **Milestone 1**
 Facciamo in modo di creare un overlay che copra l’intera pagina e all’interno, centrata, disponiamo un’immagine qualunque ed un button di chiusura.
 **Milestone 2**
-Facciamn l’o sparire l’overlay coaiuto di una classe CSS che imposti il display: none .
+Facciamo sparire l’overlay con l'aiuto di una classe CSS che imposti il display: none.
 Dopodiché facciamo sì che cliccando una qualunque foto. L’overlay ricompaia.
 Cliccando invece il button di chiusura, l’overlay scompare nuovamente.
 **Milestone 3**
