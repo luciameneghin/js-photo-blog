@@ -33,7 +33,6 @@ function photo() {
 
 }
 
-
 // Una volta che tutte le card sono raccolte, mostra tutte le card
 function showAllCards(photoArray) {
   //variabile che accumula tutte le card
@@ -59,3 +58,12 @@ function showCards(card) {
 function printError(errorMessage) {
   errorEl.innerHTML = `<p>${errorMessage}</p>`;
 }
+
+
+// giorno 2
+const overlayImgBtn = document.querySelector('.overlay');
+const button = document.querySelector('.btn');
+
+button.addEventListener('click', () => {
+  overlayImgBtn.classList.add('d-none')
+})

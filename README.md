@@ -26,3 +26,21 @@ in js uso axios.get per fare la chiamata AJAX all'API di json placeholder e con 
 Ricordarsi il .catch (inserisci messaggio di errore in pagina)
 **Bonus**
 Rivedere il responsive della milestone 1
+
+
+## Consegna
+**Milestone 1**
+Facciamo in modo di creare un overlay che copra l’intera pagina e all’interno, centrata, disponiamo un’immagine qualunque ed un button di chiusura.
+**Milestone 2**
+Facciamn l’o sparire l’overlay coaiuto di una classe CSS che imposti il display: none .
+Dopodiché facciamo sì che cliccando una qualunque foto. L’overlay ricompaia.
+Cliccando invece il button di chiusura, l’overlay scompare nuovamente.
+**Milestone 3**
+Inseriamo il pezzo di logica finale: quando una foto viene cliccata, dobbiamo fare in modo che sia proprio quella foto a essere mostrata all’interno dell’overlay.
+Ci sono diversi modi di farlo, prova a sperimentare 
+
+**Bonus**
+Spostandosi col mouse sopra le foto, queste si zoommano, ruotano di 10 gradi e la loro ombra aumenta, il tutto in manierà fluida. Inoltre il mouse diventa un puntatore, per far capire all’utente che può cliccare
+
+## Logica
+al click sulla card display overlay/immagine e bottone
