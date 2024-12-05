@@ -3,3 +3,53 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: Delius Swash Caps;
+  font-style: italic;
+}
+
+/* utility */
+img {
+  width: 100%;
+}
+
+/* fine utility */
+
+/* .all {
+  background-color: yellowgreen;
+} */
+
+/* titolo */
+.title {
+  height: 150px;
+  background-image: url("../assets_day1/img/wall.png");
+}
+
+.title h1 {
+  font-size: 4rem;
+}
+
+.bg-title {
+  height: 150px;
+}
+
+/* cards */
+.jumbotroon {
+  height: 100vh;
+  background-image: url("../assets_day1/img/cork.png");
+}
+
+.container .user-cards .single-user-card {
+  position: relative;
+  background-color: white;
+  width: 300px;
+  height: 360px;
+}
+
+.container .user-cards .single-user-card .pin {
+  position: absolute;
+  height: 30px;
+  top: -10px;
+  left: 0;
+}
