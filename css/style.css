@@ -7,6 +7,7 @@
 body {
   font-family: Comic Neue;
   font-style: italic;
+  height: 100vh;
 }
 
 /* utility */
@@ -18,10 +19,22 @@ img {
 
 
 /* titolo */
-header .title {
-  height: 150px;
+header {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  width: 100%;
   background-image: url("../assets_day1/img/wall.png");
 }
+
+header .title {
+  height: 150px;
+}
+
+/* header .title,
+.jumbotron img {
+  object-fit: contain;
+} */
 
 header .title h1 {
   font-size: 5rem;
@@ -35,7 +48,8 @@ header .bg-title {
 
 /* cards */
 main .jumbotron {
-  /* height: 100vh; */
+  position: relative;
+  margin-top: 150px;
   background-image: url("../assets_day1/img/cork.png");
   padding: 50px;
 }
