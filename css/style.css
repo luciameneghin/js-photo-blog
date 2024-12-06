@@ -93,6 +93,7 @@ main .container .user-cards .single-user-card:hover {
   transform: scale(1.2) rotate(10deg);
   box-shadow: 15px 15px 15px rgba(0, 0, 0, .8);
   cursor: pointer;
+  z-index: 40;
 }
 
 
@@ -102,6 +103,7 @@ main .container .user-cards .single-user-card .pin {
   top: -10px;
   left: 0;
 }
+
 
 main .container .user-cards .single-user-card .text-card {
   font-size: 0.9rem;
