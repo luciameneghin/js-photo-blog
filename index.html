@@ -24,8 +24,8 @@
 </head>
 
 <body>
-  <header>
 
+  <header>
     <div class="title text-center py-4">
       <!-- <img src="assets_day1/img/wall.png" alt=".." class="bg-title"> -->
       <h1 class="">ESTATE '24</h1>
@@ -33,27 +33,34 @@
   </header>
 
   <main>
-    <div class="overlay d-flex justify-content-center flex-wrap my-3 d-none">
-      <img src="mieiassets/white-overlay.jpeg" alt="overlay" class="backg">
-      <img src="mieiassets/sea.jpeg" alt="sea" class="sea">
-      <button type="button" class="btn btn-dark">Torna alle foto</button>
-    </div>
+
     <div class="jumbotron">
       <div class="container">
         <div class="error-text">
           <p class="text-danger">Ops.. non siamo riusciti a recuperare le tue foto... riprova più tardi</p>
         </div>
+
         <div class="user-cards row row-cols-lg-3 d-flex justify-content-center flex-wrap">
-          <!-- <div class="single-user-card col-4 mx-3 my-3">
-            <img src="assets_day1/img/pin.svg" alt="pin" class="pin">
-            <img src="https://fakeimg.pl/600x600" alt=".." class="my-3">
-            <p class="text-card">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          </div> -->
+          <div class="card d-none">
+            <!-- <div class="single-user-card col-4 mx-3 my-3">
+              <img src="assets_day1/img/pin.svg" alt="pin" class="pin">
+              <img src="https://fakeimg.pl/600x600" alt=".." class="my-3">
+              <p class="text-card">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div> -->
+          </div>
         </div>
+
       </div>
     </div>
   </main>
-
+  <div class="overlay d-flex justify-content-center flex-wrap my-3 d-none">
+    <!-- <img src="mieiassets/white-overlay.jpeg" alt="overlay" class="backg"> -->
+    <div class="img-overlay text-center">
+      <!-- <img src="" alt="img-api" class="api-img"> -->
+      <!-- <img src="mieiassets/sea.jpeg" alt="sea" class="sea"> -->
+    </div>
+    <button type="button" class="btn btn-dark">Torna alle foto</button>
+  </div>
 
 
   <!-- JS -->

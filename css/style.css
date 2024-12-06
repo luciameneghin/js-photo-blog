@@ -10,6 +10,7 @@ body {
   height: 100vh;
 }
 
+
 /* utility */
 img {
   width: 100%;
@@ -29,34 +30,24 @@ header {
 }
 
 /* inizio overlay */
+
 .overlay {
-  position: absolute;
-  z-index: 50;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-
-}
-
-.overlay .backg {
-  position: absolute;
+  position: fixed;
   top: -20px;
-  opacity: 0.9;
-}
-
-.overlay .sea {
-  position: absolute;
-  width: 600px;
-  height: 600px;
-  left: 29%;
-  top: 2%;
-  box-shadow: 5px 5px 10px black;
+  left: 0;
+  right: 0;
+  bottom: -20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
 }
 
 .overlay .btn {
   position: absolute;
-  top: 80%;
+  z-index: 60;
+  top: 5px;
   left: 42%;
   font-size: 2rem;
 }
