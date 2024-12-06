@@ -46,14 +46,11 @@ function showAllCards(photoArray) {
 // prepara tutte le card
 function showCards(card) {
   const { title, url } = card;
-  return `
-            <div class="single-user-card col-4 mx-3 my-3" data-url="${url}">
+  return `<div class="single-user-card col-4 mx-3 my-3" data-url="${url}">
               <img src="assets_day1/img/pin.svg" alt="pin" class="pin">
               <img src="${url}" alt=".." class="my-3">
               <p class="text-card">${title}</p>
-            </div>
-          `
-
+            </div> `
 }
 
 // messaggio di errore
