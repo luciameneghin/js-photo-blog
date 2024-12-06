@@ -47,7 +47,7 @@ function showAllCards(photoArray) {
 function showCards(card) {
   const { title, url } = card;
   return `
-            <div class="single-user-card col-4 mx-3 my-3">
+            <div class="single-user-card col-4 mx-3 my-3" data-url="${url}">
               <img src="assets_day1/img/pin.svg" alt="pin" class="pin">
               <img src="${url}" alt=".." class="my-3">
               <p class="text-card">${title}</p>
@@ -75,14 +75,15 @@ button.addEventListener('click', () => {
 userCard.addEventListener('click', (event) => {
   // Controlla che l'elemento cliccato sia una card (dentro la userCard)
   const card = event.target.closest('.single-user-card');
-
+  console.log(card);
   if (card) {
-    const imageUrl = card.getAttribute('data-url');  // Ottieni l'URL dell'immagine dalla card
-    showImg(imageUrl);  // Mostra l'immagine nell'overlay
+    const imageUrl = card.getAttribute('data-url');  // url immagine
+    showImg(imageUrl);  // immagine overlay
+    console.log(imageUrl);
   }
 });
 
-// Funzione per mostrare l'immagine nell'overlay
+// mostro l'immagine nell'overlay
 function showImg(url) {
   imageOverlay.innerHTML = `<img src="${url}" alt="img-api" class="api-img">`;
   overlayImgBtn.classList.remove('d-none');  // Mostra l'overlay

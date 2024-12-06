@@ -43,4 +43,16 @@ Ci sono diversi modi di farlo, prova a sperimentare 
 Spostandosi col mouse sopra le foto, queste si zoommano, ruotano di 10 gradi e la loro ombra aumenta, il tutto in manierà fluida. Inoltre il mouse diventa un puntatore, per far capire all’utente che può cliccare
 
 ## Logica
-al click sulla card display overlay/immagine e bottone
+**Milestone 1**
+overlay fuori da main e header per far si che vada sopra a entrambi
+bottone che attiva d-none all'overlay
+**Milestone 2**
+cliccando sulla singola card compare la foto a tutto schermo, tolgo quindi il dipslay-none all'overlay
+clicco il bottone e l'overlay scompare di nuovo
+**Milestone 3**
+al click sulla card faccio comparire l'immagine stessa, 
+uso closest() per per prendere il tag che mi interessa per far si che il click avvenga solo sopra la card e poi uso getAttribute() per prendere l'url specifico della card in base a quella su cui clicco.
+
+**bonus**
+css: all'hover creo effetto zoom, ruotamento e aumento ombra 
+sempre all'hover faccio diventare la freccetta una manina
